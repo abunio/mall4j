@@ -52,7 +52,13 @@
         <dependency>
             <groupId>org.redisson</groupId>
             <artifactId>redisson-spring-boot-starter</artifactId>
+            <version>3.11.3</version>
         </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.naah69</groupId>-->
+            <!--<artifactId>spring-boot-starter-redisson</artifactId>-->
+            <!--<version>1.0.0</version>-->
+        <!--</dependency>-->
 		<dependency>
 		    <groupId>ma.glasnost.orika</groupId>
 		    <artifactId>orika-core</artifactId>

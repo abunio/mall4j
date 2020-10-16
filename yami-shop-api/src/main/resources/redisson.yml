@@ -1,8 +1,8 @@
 # 单节点设置
 singleServerConfig:
-  address: redis://127.0.0.1:6379
+  address: redis://47.114.3.235:6379
   database: 0
-  password: null
+  password: 123456
   idleConnectionTimeout: 10000
   pingTimeout: 1000
   connectTimeout: 10000
