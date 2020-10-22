@@ -23,6 +23,7 @@ public class AdminBeanConfig {
 
     @Bean
     public Snowflake snowflake() {
+
     	return new Snowflake(adminConfig.getWorkerId(), adminConfig.getDatacenterId());
     }
 }
