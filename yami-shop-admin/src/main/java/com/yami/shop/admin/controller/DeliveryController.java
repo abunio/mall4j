@@ -37,7 +37,6 @@ public class DeliveryController {
 	 */
     @GetMapping("/list")
 	public ResponseEntity<List<Delivery>> page(){
-		
 		List<Delivery> list = deliveryService.list();
 		return ResponseEntity.ok(list);
 	}
