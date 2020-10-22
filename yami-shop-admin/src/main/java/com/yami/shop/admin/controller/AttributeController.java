@@ -53,6 +53,7 @@ public class AttributeController {
     @GetMapping("/page")
 	@PreAuthorize("@pms.hasPermission('admin:attribute:page')")
 	public ResponseEntity<IPage<ProdProp>> page(ProdProp prodProp,PageParam<ProdProp> page){
+
     	prodProp.setRule(ProdPropRule.ATTRIBUTE.value());
     	prodProp.setShopId(SecurityUtils.getSysUser().getShopId());
 		IPage<ProdProp> prodPropIPage = prodPropService.pagePropAndValue(prodProp,page);
